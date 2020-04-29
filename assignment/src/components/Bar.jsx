@@ -2,7 +2,8 @@ import React from 'react';
 import { Bar } from 'react-chartjs-2';
 
 function BarChart(props) {
-    const db = props.data
+    console.log(props.data)
+    var db = props.data
     const chartData = {
         labels: Object.keys(db),
         datasets: [

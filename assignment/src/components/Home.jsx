@@ -57,8 +57,8 @@ function Table() {
     return (
         <React.Fragment>
             <Navbar></Navbar>
-            {Object.keys(orderCount).length >= 1 && <Line data={orderCount}></Line>}
-            {Object.keys(priceCount).length >= 1 && <Bar data={priceCount}></Bar>}
+            {Object.keys(orderCount).length > 1 && <Line data={orderCount}></Line>}
+            {Object.keys(priceCount).length > 1 && <Bar data={priceCount}></Bar>}
 
             <div className="table-responsive mt-5">
                 <table className="table table-bordered">

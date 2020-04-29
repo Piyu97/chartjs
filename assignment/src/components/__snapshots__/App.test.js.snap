@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot 1`] = `
+<div>
+  <h3
+    className="p-3 text-center bg-dark text-warning "
+  >
+    Assignment on Charts
+  </h3>
+  <div
+    className="table-responsive mt-5"
+  >
+    <table
+      className="table table-bordered"
+    >
+      <thead
+        className="bg-dark text-white"
+      >
+        <tr>
+          <td>
+            SI.NO
+          </td>
+          <td>
+            Email
+          </td>
+          <td>
+            First Name
+          </td>
+          <td>
+            Last Name
+          </td>
+          <td>
+            Created Date
+          </td>
+          <td>
+            Orders
+          </td>
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+  </div>
+  <ul
+    className="float-right"
+  >
+    <li
+      className="page-item list-inline-item border border-danger p-2"
+      onClick={[Function]}
+    >
+      Previous
+    </li>
+    <li
+      className="page-item list-inline-item border border-success p-2"
+    >
+      1
+    </li>
+    <li
+      className="page-item list-inline-item border border-danger p-2"
+      onClick={[Function]}
+    >
+      Next
+    </li>
+  </ul>
+</div>
+`;
