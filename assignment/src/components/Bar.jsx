@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Bar } from 'react-chartjs-2';
 
-function LineChart(props) {
+function BarChart(props) {
     const db = props.data
     const chartData = {
         labels: Object.keys(db),
@@ -10,9 +10,8 @@ function LineChart(props) {
                 label: "Prices",
                 data: Object.values(db),
                 backgroundColor: "lightblue",
-                borderWidth: 1.5,
+                borderWidth: 1,
                 borderColor: "#777",
-
             }
         ]
     }
@@ -52,4 +51,4 @@ function LineChart(props) {
 }
 
 
-export default LineChart;
+export default BarChart;

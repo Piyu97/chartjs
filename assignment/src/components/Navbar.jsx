@@ -2,26 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
-	return (
-		<React.Fragment>
-			<ul className="nav justify-content-center container bg-dark text-white mt-2">
-				<li className="nav-item m-auto">
-					<Link to="/">
-						CUSTOMER TABLE
-					</Link>
-				</li>
-				<li className="nav-item m-auto">
-					<Link to="/order">
-						ORDER GRAPH
-					</Link>
-				</li>
-				<li className="nav-item m-auto">
-					<Link to="/price">
-						PRICE GRAPH
-					</Link>
-				</li>
-			</ul>
-		</React.Fragment>
-	);
+    return (
+        <React.Fragment>
+            <h3 className="p-3 text-center bg-dark text-warning ">
+                Assignment on Charts
+			</h3>
+        </React.Fragment>
+    );
 }
 export default Navbar;

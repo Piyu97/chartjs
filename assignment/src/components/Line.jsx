@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import { Line } from 'react-chartjs-2';
 
 function LineChart(props) {
@@ -14,12 +14,12 @@ function LineChart(props) {
                 borderColor: "#777",
                 pointBorderWidth:1,
                 pointBackgroundColor:'red',
-                pointRadius:4
+                pointRadius:4,
             }
         ],
     }
     return (
-        <div className="mx-5">
+        <div className="char mx-5 ">
             <Line
                 data={chartData}
                 options={{
